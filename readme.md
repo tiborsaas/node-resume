@@ -6,9 +6,11 @@ This projects helps to generate a PDF resume based on a JSON file. By default tw
 ## Usage
 Just edit a json, use the command line and you are ready to go. 
 ### Step 1
-Edit the contents of the `data/cv.json` or just use the nullified `cv-empty.json` as a starter.
+Install dependenceis with `npm install`.
 ### Step 2
-Type `npm start` in command line. That will render the default template called "basic". You can render other templates by adding the template name that you can find the the `views` folder. 
+Edit the contents of the `data/cv.json` or just use the nullified `cv-empty.json` as a starter.
+### Step 3
+Type `npm start` in command line. That will render the default template called "basic". You can render other templates by adding the template name that you can find the the `views` folder, like `npm start classic`.
 
 DONE :)
 
