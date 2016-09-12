@@ -1,7 +1,7 @@
 # Node resume
 This projects helps to generate a PDF resume based on a JSON file. By default two designs are supplied.
 
-[Check out my CV as an example](blob/master/cv.pdf)
+[Check out my CV as an example](cv.pdf)
 
 ## Usage
 Just edit a json, use the command line and you are ready to go. 
