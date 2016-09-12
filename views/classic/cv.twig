@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Resume of {{name}}</title>
+	<link rel="stylesheet" href="{{meta.root}}/style.css">
+</head>
+<body>
+	<header class="main">
+
+		<img src="{{meta.root}}/profile.jpg" alt="">
+
+		<h1>{{name}}</h1>
+		<h2>{{title}}</h2>
+
+		<div class="item">Born: {{born}}</div>
+		<div class="item">Email: {{email}}</div>
+		<div class="item">Residency: {{residence}}</div>
+		<div class="item">Skype ID: {{skype}}</div>
+
+		<article class="websites">
+			<p><a href="{{website}}">Personal website</a></p>
+			{% for portal in social_portals %}
+				<p><a href="{{portal.url}}">{{portal.title}}</a></p>
+			{% endfor %}
+		</article>
+	</header>
+
+	<div class="main">
+		<article class="entry">
+			<h3>Short biography</h3>
+			<p>{{short_bio}}</p>
+		</article>
+
+		<article class="entry">
+			<h3>Education</h3>
+			<ul>
+				{% for edu in education %}
+					<li>
+						{{edu.date}}<br>
+						{{edu.description}}
+					</li>
+				{% endfor %}
+			</ul>
+		</article>
+
+		<article class="entry">
+			<h3>Work experience</h3>
+			<ul>
+				{% for job in job_history %}
+					<li>
+						<strong>{{job.employer}}</strong><br>
+						{{job.date}}<br>
+						{{job.role}}
+					</li>
+				{% endfor %}
+			</ul>
+		</article>
+
+		<article class="entry">
+			<h3>List of my projects</h3>
+			<ul>
+				{% for project in projects %}
+					<li>
+						<strong>{{project.title}}</strong>
+						<br>
+						{{project.description}}
+						<br>
+						<a href="{{project.url}}">Visit project</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</article>
+
+		<article class="entry">
+			<h3>Technologies</h3>
+			{% for key, technology in technologies %}
+				<h4>{{key|capitalize}}</h4>
+				<p>{{technology}}</p>	
+			{% endfor %}
+		</article>
+
+		<article class="entry">
+			<h3>Spoken languages</h3>
+			<ul>
+				{% for lang in spoken_languages %}
+					<li>{{lang.language}} – {{lang.level}}</li>
+				{% endfor %}
+			</ul>
+		</article>
+	</div>
+</body>
+</html>

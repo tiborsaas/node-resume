@@ -1,0 +1,96 @@
+{
+	"name": "Tibor Szász",
+	"title": "Full stack developer",
+	"born": "1983",
+	"email": "tibor@szasz.hu",
+	"website": "http://tibor.szasz.hu",
+	"skype": "kowdermeister",
+	"family": "life partner",
+	"residence": "Budapest, Hungary",
+	"short_bio": "I'm a full-stack developer focusing on front-end with 10+ years experience. I'm passonate about design, UX, music and creative hobbies in general. I've been part of two startup accelerators.",
+	"technologies": {
+		"frontend": "JavaScript, HTML5, CSS3, jQuery, Underscore, SASS, LESS, Backbone, Socket.io, WebAudio, Canvas, Paper.js, Bootstrap, Material design, Polymer, Semantic UI", 
+		"backend": "PHP5, Laravel, CodeIgniter, Node.js, WebGL, Three.js, Processing, C++",
+		"workflow": "Git, GitHub, BitBucket, Gulp, Bower, NPM"
+	},
+
+	"social_portals": [
+		{"title": "Github", "url": "https://github.com/tiborsaas" },
+		{"title": "LinkedIn", "url": "https://hu.linkedin.com/in/tiborszasz" },
+		{"title": "Facebook", "url": "https://www.facebook.com/szasz" }
+	],
+
+	"interests": [ 
+		"Music making",
+		"Rideing bike",
+		"Hanging out with friends"
+	],
+
+	"education": [
+		{
+			"date": "2003 - ",
+			"description": "Seft taught web developer"
+		},
+		{
+			"date": "1997 - 2001",
+			"description": "IT focused high school"
+		}
+	],
+
+	"projects": [
+		{
+			"title": "Coding Sans website",
+			"description": "A world class software house focusing on JavaScript",
+			"url": "http://codingsans.com/"
+		},
+		{
+			"title": "Total Cloud Consulting",
+			"description": "Website for a company who provide AWS consulting",
+			"url": "https://totalcloudconsulting.hu/"
+		},
+		{
+			"title": "Mosaik Space",
+			"description": "A popular co-working space in Budapest",
+			"url": "http://mosaik.space/"
+		},
+		{
+			"title": "ABC All Access",
+			"description": "Comprehensive page for the sales team of ABC",
+			"url": "http://abcallaccess.com/"
+		},
+		{
+			"title": "Onlinefutar.hu",
+			"description": "Full frontend for a shipping broker company",
+			"url": "http://onlinefutar.hu/"
+		}
+	],
+
+	"job_history": [
+		{
+			"employer": "Stunn",
+			"date": "2013 - 2016",
+			"role": "I founded a startup with the goal to build a browser based video editing platfrom. We reached private beta. I created all frontend code, UX."
+		},
+		{
+			"employer": "CloudDeck",
+			"date": "2012 - 2013",
+			"role": "I founded a music starup to collect and analyze music from the web with my own search bot, using the SoundCloud API."
+		},
+		{
+			"employer": "Rebel Rouse digital agency",
+			"date": "2010 - 2012",
+			"role": "I was the head of development and UX. I helped to translate client needs to production ready specifications."
+		},
+		{
+			"employer": "Skyweb web development studio",
+			"date": "2007 - 2010",
+			"role": "My first venture to build websites and web applications for clients. As a founder I participated and oversaw development."
+		}
+	],
+
+	"spoken_languages": [
+		{"language": "Hungarian", "level": "native"},
+		{"language": "English", "level": "fluent"},
+		{"language": "German", "level": "basic"}
+	]
+}

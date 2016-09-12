@@ -1,0 +1,140 @@
+
+/************************
+ * GENERAL STUFF
+ ************************/
+
+body {
+	color: #123;
+	background: #fff;
+	font-size: 16px;
+	text-rendering: optimize-speed;
+	margin: 0rem 5rem;
+}
+
+@font-face {
+  font-family: 'ClearSans';
+  src: url('fonts/ClearSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ClearSans bold';
+  src: url('fonts/ClearSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spartan';
+  src: url('fonts/LeagueSpartan-Bold.otf') format('opentype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'ClearSans', serif;
+}
+
+a {
+	color: #39b54a;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-style: normal;
+	font-family: 'ClearSans bold', serif;
+}
+
+strong {
+	font-family: 'ClearSans bold';
+}
+
+ul {
+	margin-left: 2rem;
+	margin-bottom: 1rem;
+}
+
+	li {
+		width: 100%;
+		display: inline-block;
+		margin-bottom: 1rem;
+		position: relative;
+	}
+		li:before {
+			content: '';
+			position: absolute;
+			left: -27px;
+			top:4px;
+			display: block;
+			width: 16px;
+			height: 16px;
+			background: transparent url(arrow_right.svg) no-repeat center center;
+			background-size: 100%;
+		}
+
+p {
+	display: inline-block;
+	margin-bottom: 1.62rem;
+}
+
+h3 {
+	margin-bottom: 1rem;
+	border-bottom: 1px solid #ccc;
+	display: block;
+	font-size: 1.5rem;
+	padding-bottom: 0.62rem;
+}
+
+h4 {
+	margin-bottom: 0.62rem;
+	margin-top: 1rem;
+	display: block;
+}
+
+
+/************************
+ * CV HEADER
+ ************************/
+
+header.main {
+	color: #333;
+	background: #fff;
+}
+
+	header.main:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	header img {
+		float: left;
+		width: 220px;
+		margin-right: 1rem;
+	}
+	
+	header h1 {
+		font-size: 2rem;
+		letter-spacing: 0.3rem;
+		display: inline-block;
+		text-transform: uppercase;
+		font-family: 'Spartan', serif;
+	}
+
+	header h2 {
+		display: block;
+		position: relative;
+		margin: 0rem 0;
+		font-family: 'Spartan', serif;		
+		font-size: 1.2rem;
+		margin-bottom: 0.25rem;
+	}
+
+
+
+article.websites {
+	margin-top: 0.62rem;
+}
+
+	article.websites a {
+		display: inline-block;
+		margin-right: 0.5rem;
+	}
+}

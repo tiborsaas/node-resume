@@ -1,0 +1,58 @@
+{
+	"name": "Name",
+	"title": "Title",
+	"born": "1999",
+	"email": "yourname@domain.com",
+	"website": "http://example.com",
+	"skype": "skypeID",
+	"family": "life partner",
+	"residence": "Budapest, Hungary",
+	"short_bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore pariatur, quibusdam quod. Minus maxime, numquam consequuntur est! Odio nobis vitae, nisi quaerat in necessitatibus, beatae delectus iste repudiandae laborum incidunt.",
+	"technologies": {
+		"frontend": "", 
+		"backend": "",
+		"workflow": ""
+	},
+
+	"social_portals": [
+		{"title": "Github", "url": "https://" },
+		{"title": "LinkedIn", "url": "https://" },
+		{"title": "Facebook", "url": "https://" }
+	],
+
+	"interests": [ 
+		"Music making"
+	],
+
+	"education": [
+		{
+			"date": "2003 - ",
+			"description": ""
+		},
+		{
+			"date": "1997 - 2001",
+			"description": ""
+		}
+	],
+
+	"projects": [
+		{
+			"title": "Lorem ipsum",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+			"url": "http://"
+		}
+	],
+
+	"job_history": [
+		{
+			"employer": "ACME Company",
+			"date": "2013 - 2016",
+			"role": "Reiciendis aut odio, tempore minima iusto similique fuga ut."
+		}
+	],
+
+	"spoken_languages": [
+		{"language": "English", "level": "fluent"},
+		{"language": "German", "level": "basic"}
+	]
+}

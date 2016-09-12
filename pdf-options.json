@@ -1,0 +1,14 @@
+{
+	"format": "Letter",
+	"base": "file:///dev/github/node-cv/views/",
+	"header": {
+		"height": "20mm",
+		"margin": "0mm",
+		"padding": "",
+		"contents": ""
+	},
+	"footer": {
+		"height": "15mm",
+		"contents": ""
+	}
+}
