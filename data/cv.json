@@ -11,7 +11,7 @@
 	"technologies": {
 		"frontend": "JavaScript, HTML5, CSS3, jQuery, Underscore, SASS, LESS, Backbone, WebSockets, WebAudio, CSS frameworks",
 		"backend": "PHP5, Laravel, CodeIgniter, Node.js, Three.js, Processing, C++, Python",
-		"graphics": "WebGL, Three.js, GLSL, Canvas, Paper.js"
+		"graphics": "WebGL, Three.js, GLSL, Canvas, Paper.js",
 		"workflow": "GitHub, BitBucket, Webpack, NPM"
 	},
 
