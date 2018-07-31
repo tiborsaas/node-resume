@@ -7,11 +7,12 @@
 	"skype": "kowdermeister",
 	"family": "life partner",
 	"residence": "Budapest, Hungary",
-	"short_bio": "I'm a full-stack developer focusing on front-end with 10+ years experience. I'm passonate about design, UX, music and creative hobbies in general. I've been part of two startup accelerators.",
+	"short_bio": "I'm a full-stack developer with 10+ years experience. I'm excited about design, UX and creative hobbies in general. I've been part of two startup accelerators so far.",
 	"technologies": {
-		"frontend": "JavaScript, HTML5, CSS3, jQuery, Underscore, SASS, LESS, Backbone, Socket.io, WebAudio, Canvas, Paper.js, Bootstrap, Material design, Polymer, Semantic UI", 
-		"backend": "PHP5, Laravel, CodeIgniter, Node.js, WebGL, Three.js, Processing, C++",
-		"workflow": "Git, GitHub, BitBucket, Gulp, Bower, NPM"
+		"frontend": "JavaScript, HTML5, CSS3, jQuery, Underscore, SASS, LESS, Backbone, WebSockets, WebAudio, CSS frameworks",
+		"backend": "PHP5, Laravel, CodeIgniter, Node.js, Three.js, Processing, C++, Python",
+		"graphics": "WebGL, Three.js, GLSL, Canvas, Paper.js"
+		"workflow": "GitHub, BitBucket, Webpack, NPM"
 	},
 
 	"social_portals": [
@@ -20,10 +21,11 @@
 		{"title": "Facebook", "url": "https://www.facebook.com/szasz" }
 	],
 
-	"interests": [ 
+	"interests": [
 		"Music making",
-		"Rideing bike",
-		"Hanging out with friends"
+		"Long walks",
+		"Hanging out with friends",
+		"Side projects"
 	],
 
 	"education": [
@@ -66,6 +68,16 @@
 	],
 
 	"job_history": [
+		{
+			"employer": "Green Fox Academy",
+			"date": "2016 - 2018",
+			"role": "I've mentored nearly 100 people and helped them to change their careers to become junior developers. In the last period of my job I've lead two in-house software projects where I worked with students to develop real products."
+		},
+		{
+			"employer": "Freelancer",
+			"date": "2016",
+			"role": "I've built various full-stack websites for clients and took part in smaller projects."
+		},
 		{
 			"employer": "Stunn",
 			"date": "2013 - 2016",
