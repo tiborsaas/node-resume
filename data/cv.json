@@ -9,10 +9,10 @@
 	"residence": "Budapest, Hungary",
 	"short_bio": "I'm a full-stack developer with 10+ years experience. I'm excited about design, UX and creative hobbies in general. I've been part of two startup accelerators so far.",
 	"technologies": {
-		"frontend": "JavaScript, HTML5, CSS3, jQuery, Underscore, SASS, LESS, Backbone, WebSockets, WebAudio, CSS frameworks",
-		"backend": "PHP5, Laravel, CodeIgniter, Node.js, Three.js, Processing, C++, Python",
-		"graphics": "WebGL, Three.js, GLSL, Canvas, Paper.js",
-		"workflow": "GitHub, BitBucket, Webpack, NPM"
+		"frontend": "JavaScript, HTML5, CSS3, jQuery, Underscore, SASS, LESS, Backbone, WebSockets, WebAudio, CSS frameworks, Webpack",
+		"backend": "PHP5+, Laravel, CodeIgniter, Node.js, C++, Python",
+		"graphics": "WebGL, Three.js, GLSL, Canvas, Paper.js, Processing, SVG",
+		"workflow": "GIT, Travis, Codeship, Jira"
 	},
 
 	"social_portals": [
