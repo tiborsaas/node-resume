@@ -17,8 +17,7 @@
 
 	"social_portals": [
 		{"title": "Github", "url": "https://github.com/tiborsaas" },
-		{"title": "LinkedIn", "url": "https://hu.linkedin.com/in/tiborszasz" },
-		{"title": "Facebook", "url": "https://www.facebook.com/szasz" }
+		{"title": "LinkedIn", "url": "https://hu.linkedin.com/in/tiborszasz" }
 	],
 
 	"interests": [
@@ -38,32 +37,31 @@
 			"description": "IT focused high school"
 		}
 	],
-
 	"projects": [
 		{
-			"title": "Coding Sans website",
-			"description": "A world class software house focusing on JavaScript",
-			"url": "http://codingsans.com/"
+			"title": "Stunn video editor / Presenter",
+			"description": "Full frontend, design, UX of a browser based video editor",
+			"url": "https://www.youtube.com/watch?v=WRLNcIznRq0"
+		},
+		{
+			"title": "Stunn Presenter",
+			"description": "Full frontend, design, UX of a browser based video presentation maker",
+			"url": "https://www.youtube.com/watch?v=-rOxs3Ohmsk"
+		},
+		{
+			"title": "CloudDeck streaming music discovery tool",
+			"description": "A desktop app built on top of SoundCloud API. Featured a search engine that analyzed the top 1000 music blogs",
+			"url": "https://www.youtube.com/watch?v=D2WhHoOSvFA"
 		},
 		{
 			"title": "Total Cloud Consulting",
-			"description": "Website for a company who provide AWS consulting",
+			"description": "Full frontend / backend of for a company who provide AWS consulting",
 			"url": "https://totalcloudconsulting.hu/"
 		},
 		{
 			"title": "Mosaik Space",
-			"description": "A popular co-working space in Budapest",
+			"description": "Full frontend / backend of a popular co-working space in Budapest",
 			"url": "http://mosaik.space/"
-		},
-		{
-			"title": "ABC All Access",
-			"description": "Comprehensive page for the sales team of ABC",
-			"url": "http://abcallaccess.com/"
-		},
-		{
-			"title": "Onlinefutar.hu",
-			"description": "Full frontend for a shipping broker company",
-			"url": "http://onlinefutar.hu/"
 		}
 	],
 
