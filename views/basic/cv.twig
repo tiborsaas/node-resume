@@ -36,7 +36,7 @@
 			<h3>Technologies</h3>
 			{% for key, technology in technologies %}
 				<h4>{{key|capitalize}}</h4>
-				<p>{{technology}}</p>	
+				<p>{{technology}}</p>
 			{% endfor %}
 		</article>
 
@@ -54,18 +54,6 @@
 		<article class="entry">
 			<h3>Short biography</h3>
 			<p>{{short_bio}}</p>
-		</article>
-
-		<article class="entry">
-			<h3>Education</h3>
-			<ul>
-				{% for edu in education %}
-					<li>
-						{{edu.date}}<br>
-						{{edu.description}}
-					</li>
-				{% endfor %}
-			</ul>
 		</article>
 
 		<article class="entry">
@@ -91,6 +79,18 @@
 						{{project.description}}
 						<br>
 						<a href="{{project.url}}">Visit project</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</article>
+
+		<article class="entry">
+			<h3>Education</h3>
+			<ul>
+				{% for edu in education %}
+					<li>
+						{{edu.date}}<br>
+						{{edu.description}}
 					</li>
 				{% endfor %}
 			</ul>
