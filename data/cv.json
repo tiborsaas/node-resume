@@ -7,10 +7,10 @@
 	"skype": "kowdermeister",
 	"family": "life partner",
 	"residence": "Budapest, Hungary",
-	"short_bio": "I'm a full-stack developer with 10+ years experience. I'm excited about design, UX and creative hobbies in general. I've been part of two startup accelerators so far.",
+	"short_bio": "I'm a full-stack engineer with 10+ years experience. Besides coding I'm excited about design, UX and creative coding in general. I've been part of two startup accelerators so far.",
 	"technologies": {
-		"frontend": "JavaScript, HTML5, CSS3, jQuery, Underscore, SASS, LESS, Backbone, WebSockets, WebAudio, CSS frameworks, Webpack",
-		"backend": "PHP5+, Laravel, CodeIgniter, Node.js, C++, Python",
+		"frontend": "JavaScript, HTML5, CSS3, React, Angular, jQuery, SASS, LESS, Backbone, WebSockets, WebAudio, CSS frameworks, Webpack",
+		"backend": "Node.js, Python, PHP5+, Laravel, CodeIgniter, C++",
 		"graphics": "WebGL, Three.js, GLSL, Canvas, Paper.js, SVG, Processing, OpenFrameworks",
 		"workflow": "GIT, Travis, Codeship, Jira"
 	},
@@ -24,13 +24,14 @@
 		"Music making",
 		"Long walks",
 		"Hanging out with friends",
-		"Side projects"
+		"Speaking at meetups",
+		"Creative side projects"
 	],
 
 	"education": [
 		{
 			"date": "2003 - ",
-			"description": "Seft taught web developer"
+			"description": "Self taught web developer"
 		},
 		{
 			"date": "1997 - 2001",
@@ -39,9 +40,9 @@
 	],
 	"projects": [
 		{
-			"title": "Stunn video editor / Presenter",
-			"description": "Full frontend, design, UX of a browser based video editor",
-			"url": "https://www.youtube.com/watch?v=WRLNcIznRq0"
+			"title": "Stunn online video editor",
+			"description": "Full frontend, UX design of a browser based video editor",
+			"url": "https://www.youtube.com/watch?v=Q5HGWhhMvGQ&list=PLg-hyOHEclVc3Mbc6qsFOWNTjUn319yWW"
 		},
 		{
 			"title": "Stunn Presenter",
@@ -49,13 +50,13 @@
 			"url": "https://www.youtube.com/watch?v=-rOxs3Ohmsk"
 		},
 		{
-			"title": "CloudDeck streaming music discovery tool",
+			"title": "CloudDeck music streaming discovery tool",
 			"description": "A desktop app built on top of SoundCloud API. Featured a search engine that analyzed the top 1000 music blogs",
 			"url": "https://www.youtube.com/watch?v=D2WhHoOSvFA"
 		},
 		{
 			"title": "Total Cloud Consulting",
-			"description": "Full frontend / backend of for a company who provide AWS consulting",
+			"description": "Full frontend / backend of for a company website who provide AWS consulting",
 			"url": "https://totalcloudconsulting.hu/"
 		},
 		{
@@ -69,32 +70,32 @@
 		{
 			"employer": "Green Fox Academy",
 			"date": "2016 - 2018",
-			"role": "I've mentored nearly 100 people and helped them to change their careers to become junior developers. In the last period of my job I've lead two in-house software projects where I worked with students to develop real products."
+			"role": "I was the tech lead of multiple in-house software projects where I worked with students to develop real products using modern frontend frameworks like React or Angular. I've mentored nearly 100 people and helped them to change their careers to become junior developers."
 		},
 		{
 			"employer": "Freelancer",
 			"date": "2016",
-			"role": "I've built various full-stack websites for clients and took part in smaller projects."
+			"role": "I was not only a lone wolf, but usually a participant in larger teams. I closely collaborated with designers and clients to fully understand their needs and turn them into living and breathing products."
 		},
 		{
 			"employer": "Stunn",
 			"date": "2013 - 2016",
-			"role": "I founded a startup with the goal to build a browser based video editing platfrom. We reached private beta. I created all frontend code, UX."
+			"role": "Co-founded a startup to build a browser based video editing platform. The product went through multiple iterations as we conducted user research. I've built all frontend code and lead UX design."
 		},
 		{
 			"employer": "CloudDeck",
 			"date": "2012 - 2013",
-			"role": "I founded a music starup to collect and analyze music from the web with my own search bot, using the SoundCloud API."
+			"role": "I've created a desktop app based on AdobeAIR (html/js) to collect and analyze music from top blogs with my own search bot. The project relied heavily on SoundCloud API."
 		},
 		{
 			"employer": "Rebel Rouse digital agency",
 			"date": "2010 - 2012",
-			"role": "I was the head of development and UX. I helped to translate client needs to production ready specifications."
+			"role": "As the lead developer I helped to translate client needs to production ready specifications. I was really happy to be part of a project where based on my idea a project for Volkswagen took off and the company won the top Effie award."
 		},
 		{
-			"employer": "Skyweb web development studio",
+			"employer": "Skyweb",
 			"date": "2007 - 2010",
-			"role": "My first venture to build websites and web applications for clients. As a founder I participated and oversaw development."
+			"role": "We were a small web development firm focused on delivering custom solutions for companies. I was the head of development and my tasks ranged from leading small teams with active development to writing specifications for outsourcing."
 		}
 	],
 
